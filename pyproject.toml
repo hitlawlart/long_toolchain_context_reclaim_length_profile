@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hitlawlart-alignrsr_jd469"
+name = "hitlawlart-long_toolchain_context_reclaim_length_profile"
 version = "0.1.0"
 description = "按段落统计对齐算法研究员·长工具链的上下文回收相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://hitlawlart.github.io"
-Repository = "https://github.com/hitlawlart/alignrsr_jd469"
-Issues = "https://github.com/hitlawlart/alignrsr_jd469/issues"
+Repository = "https://github.com/hitlawlart/long_toolchain_context_reclaim_length_profile"
+Issues = "https://github.com/hitlawlart/long_toolchain_context_reclaim_length_profile/issues"
 
 [project.scripts]
-alignrsr_jd469 = "alignrsr_jd469:main"
+long_toolchain_context_reclaim_length_profile = "long_toolchain_context_reclaim_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["alignrsr_jd469"]
+py-modules = ["long_toolchain_context_reclaim_length_profile"]

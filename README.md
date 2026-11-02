@@ -1,11 +1,11 @@
-# alignrsr_jd469
+# long_toolchain_context_reclaim_length_profile
 
 **统计对齐算法研究员·长工具链的上下文回收各部分的长度占比并标出异常。**
 
-`alignrsr_jd469` —— 按段落统计对齐算法研究员·长工具链的上下文回收相关的长度分布，标出过长、过短与重复表达的部分
+`long_toolchain_context_reclaim_length_profile` —— 按段落统计对齐算法研究员·长工具链的上下文回收相关的长度分布，标出过长、过短与重复表达的部分
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`alignrsr_jd469.py` 拷走就能用
+- 单文件，`long_toolchain_context_reclaim_length_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install hitlawlart-alignrsr_jd469
+pip install hitlawlart-long_toolchain_context_reclaim_length_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-alignrsr_jd469 --help
+long_toolchain_context_reclaim_length_profile --help
 ```
 
-也可以不用安装，直接把 `alignrsr_jd469.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `long_toolchain_context_reclaim_length_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ alignrsr_jd469 --help
 ## 用法
 
 ```bash
-python alignrsr_jd469.py --file input.txt
-python alignrsr_jd469.py --text "示例内容"
-python alignrsr_jd469.py --file input.txt --json
+python long_toolchain_context_reclaim_length_profile.py --file input.txt
+python long_toolchain_context_reclaim_length_profile.py --text "示例内容"
+python long_toolchain_context_reclaim_length_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python alignrsr_jd469.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_alignrsr_jd469.py
+python test_long_toolchain_context_reclaim_length_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_alignrsr_jd469.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/hitlawlart/alignrsr_jd469>
+- GitHub 仓库：<https://github.com/hitlawlart/long_toolchain_context_reclaim_length_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_alignrsr_jd469.py
 hitlawlart 做对齐算法研究员·长工具链的上下文回收相关的问题，方向对标蚂蚁集团的初级对齐算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://hitlawlart.github.io>
-- 仓库：<https://github.com/hitlawlart/alignrsr_jd469>
+- 仓库：<https://github.com/hitlawlart/long_toolchain_context_reclaim_length_profile>
 
 ## 许可
 
